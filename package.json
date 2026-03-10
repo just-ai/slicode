@@ -1,0 +1,45 @@
+{
+  "name": "slicode",
+  "version": "1.0.0",
+  "author": "Just AI",
+  "description": "Turn Markdown into animated Slidev presentations",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "slicode": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "template",
+    "themes"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/cli.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "slidev",
+    "slides",
+    "presentation",
+    "markdown",
+    "code",
+    "magic-move",
+    "animation"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/just-ai/slicode"
+  },
+  "dependencies": {
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "unified": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+:root {
+  --slicode-bg: #1A1A2E;
+  --slicode-text: #E0E0E0;
+  --slicode-text-secondary: #A0A0B8;
+  --slicode-accent: #7C83FF;
+  --slicode-code-bg: #0F0F1A;
+  --slicode-code-bg-light: #16162A;
+  --slicode-right-bg-from: #16162A;
+  --slicode-right-bg-to: #0F0F1A;
+  --font-heading: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Space Grotesk', system-ui, sans-serif;
+  --font-code: 'Fira Code', monospace;
+
+}

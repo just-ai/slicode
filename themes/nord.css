@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  --slicode-bg: #ECEFF4;
+  --slicode-text: #2E3440;
+  --slicode-text-secondary: #4C566A;
+  --slicode-accent: #5E81AC;
+  --slicode-code-bg: #2E3440;
+  --slicode-code-bg-light: #3B4252;
+  --slicode-right-bg-from: #3B4252;
+  --slicode-right-bg-to: #2E3440;
+  --font-heading: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-body: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-code: 'IBM Plex Mono', monospace;
+
+}

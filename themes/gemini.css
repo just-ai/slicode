@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+
+:root {
+  --slicode-bg: #FFFFFF;
+  --slicode-text: #1A1A1A;
+  --slicode-text-secondary: #5F6368;
+  --slicode-accent: #078EFA;
+  --slicode-code-bg: #1A1A2E;
+  --slicode-code-bg-light: #252540;
+  --slicode-right-bg-from: #1E1E3A;
+  --slicode-right-bg-to: #141428;
+  --font-heading: 'Google Sans', 'Product Sans', system-ui, sans-serif;
+  --font-body: 'Google Sans', 'Product Sans', system-ui, sans-serif;
+  --font-code: 'Roboto Mono', monospace;
+
+}

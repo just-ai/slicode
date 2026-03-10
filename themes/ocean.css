@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500&display=swap');
+
+:root {
+  --slicode-bg: #F0F4F8;
+  --slicode-text: #1B2A4A;
+  --slicode-text-secondary: #4A6FA5;
+  --slicode-accent: #2B6CB0;
+  --slicode-code-bg: #1B2A4A;
+  --slicode-code-bg-light: #243B63;
+  --slicode-right-bg-from: #243B63;
+  --slicode-right-bg-to: #1B2A4A;
+  --font-heading: 'Source Sans 3', system-ui, sans-serif;
+  --font-body: 'Source Sans 3', system-ui, sans-serif;
+  --font-code: 'Source Code Pro', monospace;
+
+}

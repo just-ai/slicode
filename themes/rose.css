@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --slicode-bg: #FFF5F5;
+  --slicode-text: #2D1B1B;
+  --slicode-text-secondary: #6B4444;
+  --slicode-accent: #E53E6B;
+  --slicode-code-bg: #2D1B2B;
+  --slicode-code-bg-light: #3D2538;
+  --slicode-right-bg-from: #3D2538;
+  --slicode-right-bg-to: #2D1B2B;
+  --font-heading: 'DM Sans', system-ui, sans-serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-code: 'JetBrains Mono', monospace;
+
+}

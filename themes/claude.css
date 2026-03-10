@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --slicode-bg: #FAF6F1;
+  --slicode-text: #1A1915;
+  --slicode-text-secondary: #5D5848;
+  --slicode-accent: #D97757;
+  --slicode-code-bg: #2D2B27;
+  --slicode-code-bg-light: #393632;
+  --slicode-right-bg-from: #3D3A35;
+  --slicode-right-bg-to: #2D2B27;
+  --font-heading: 'Source Serif 4', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-code: 'JetBrains Mono', monospace;
+  --h1-weight: 400;
+}

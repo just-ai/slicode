@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+:root {
+  --slicode-bg: #1E1E1E;
+  --slicode-text: #D4D4D4;
+  --slicode-text-secondary: #9CDCFE;
+  --slicode-accent: #007ACC;
+  --slicode-code-bg: #1E1E1E;
+  --slicode-code-bg-light: #252526;
+  --slicode-right-bg-from: #252526;
+  --slicode-right-bg-to: #1E1E1E;
+  --font-heading: 'Segoe UI Variable', 'Inter', system-ui, sans-serif;
+  --font-body: 'Segoe UI Variable', 'Inter', system-ui, sans-serif;
+  --font-code: 'Cascadia Code', 'Fira Code', monospace;
+
+}

@@ -1,0 +1,115 @@
+/* Base styles — theme CSS is prepended by the generator */
+
+.slidev-layout {
+  padding: 0 !important;
+  font-family: var(--font-body) !important;
+  background: var(--slicode-bg) !important;
+  color: var(--slicode-text) !important;
+}
+
+/* Text morph transition for within-slide click changes */
+.text-morph-enter-active,
+.text-morph-leave-active {
+  transition: opacity 0.25s ease, filter 0.25s ease;
+}
+
+.text-morph-enter-from {
+  opacity: 0;
+  filter: blur(4px);
+}
+
+.text-morph-leave-active {
+  position: absolute;
+  inset: 0;
+}
+
+.text-morph-leave-to {
+  opacity: 0;
+  filter: blur(4px);
+}
+
+/* View Transitions: heading morphs position/size between slides */
+::view-transition-old(slide-heading),
+::view-transition-new(slide-heading) {
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* View Transitions: text morphs between slides */
+::view-transition-old(slide-text),
+::view-transition-new(slide-text) {
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* View Transitions: right column drawer slides in/out */
+::view-transition-group(right-drawer) {
+  animation: none;
+  overflow: hidden;
+}
+
+::view-transition-image-pair(right-drawer) {
+  isolation: auto;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(right-drawer) {
+  animation: drawerOut 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  opacity: 1;
+}
+
+::view-transition-new(right-drawer) {
+  animation: drawerIn 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  opacity: 1;
+}
+
+@keyframes drawerIn {
+  from { transform: translateX(100%); opacity: 1; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes drawerOut {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(100%); opacity: 1; }
+}
+
+/* Terminal window chrome for bash/shell code blocks */
+.terminal-window {
+  position: relative;
+  background: var(--slicode-code-bg) !important;
+  border-radius: 8px;
+  padding: 36px 16px 12px !important;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 1.6 !important;
+}
+
+.terminal-window :deep(pre),
+.terminal-window :deep(code),
+.terminal-window :deep(.shiki) {
+  line-height: 1.6 !important;
+}
+
+.terminal-window::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #FF5F56;
+  box-shadow: 16px 0 0 #FFBD2E, 32px 0 0 #27C93F;
+}
+
+/* Inline code styling */
+.slidev-layout :not(pre) > code {
+  background: var(--slicode-code-bg-light) !important;
+  color: #E0E0E0 !important;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-family: var(--font-code);
+  font-size: 0.9em;
+}
+
