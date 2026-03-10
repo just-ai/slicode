@@ -28,13 +28,10 @@ slicode example.md --open
 slicode https://example.com/talk.md --open
 
 # GitHub file (auto-resolves to raw)
-slicode https://github.com/user/repo/blob/main/example.md
+slicode https://github.com/just-ai/slicode/blob/main/example.md
 
 # GitHub gist
 slicode https://gist.github.com/user/abc123 --open
-
-# Build static SPA
-slicode example.md build
 
 # Build static SPA
 slicode example.md build
