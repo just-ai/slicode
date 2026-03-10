@@ -2,7 +2,7 @@
 
 Turn [simple Markdown](example.md) into beautiful [Slidev](https://sli.dev) presentations with animated code transitions.
 
-<video src="screen.webm" autoplay loop muted playsinline></video>
+[screen.webm](https://github.com/user-attachments/assets/b868208f-f7c0-417e-9f47-f6601fcbda70)
 
 ## Install
 
