@@ -4,6 +4,17 @@ Turn [simple Markdown](example.md) into beautiful [Slidev](https://sli.dev) pres
 
 [screen.webm](https://github.com/user-attachments/assets/b868208f-f7c0-417e-9f47-f6601fcbda70)
 
+## Why not just Slidev?
+
+> Slidev is awesome — but you have to learn its syntax, layouts, Vue components, and config. 
+`slicode` lets you skip all that. 
+Write a plain Markdown file that reads well on its own, run one command, and get a polished presentation with animated code transitions, smooth morphing, and a sliding code panel — all out of the box.
+
+**Use `slicode` when you want to:**
+- Present your code without fighting with slide layout
+- Go from README to talk in 30 seconds
+- Keep your slides readable as a plain `.md` file
+
 ## Install
 
 ```bash
