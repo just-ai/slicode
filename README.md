@@ -56,7 +56,7 @@ slicode example.md build
 
 ## Markdown Format
 
-### Centered slides — `#`
+### Centered slides — heading without code/image
 
 ```md
 # Welcome
@@ -64,9 +64,9 @@ slicode example.md build
 This text is centered on the slide.
 ```
 
-### Two-column slides — `##`
+### Two-column slides — any heading + code or image
 
-Heading and text on the left, code on the right:
+Heading and text on the left, code or image on the right:
 
 ```md
 ## Getting Started
@@ -76,45 +76,13 @@ Here's a simple example.
 ​```python
 print("hello")
 ​```
+
+## Architecture
+
+![diagram](https://example.com/diagram.png)
 ```
 
-### Click-through states
-
-Consecutive `##` sections with code blocks become animated click states on a single slide. Code transitions use [Magic Move](https://sli.dev/features/magic-move), text crossfades smoothly:
-
-```md
-## Step 1
-
-Define a function.
-
-​```python
-def greet():
-    pass
-​```
-
-Add the body.
-
-​```python
-def greet():
-    print("hello")
-​```
-
-## Step 2
-
-Call it.
-
-​```python
-def greet():
-    print("hello")
-
-greet()
-​```
-```
-
-This produces **one** two-column slide with **3 click states**:
-- Click 0: "Step 1" heading, first text, first code
-- Click 1: same heading (no animation), second text, code morphs
-- Click 2: heading changes to "Step 2" (animated), third text, code morphs again
+Consecutive sections with code merge into one slide with animated click-through states using [Magic Move](https://sli.dev/features/magic-move).
 
 ## Themes
 

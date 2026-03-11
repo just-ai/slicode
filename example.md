@@ -6,8 +6,8 @@ Turn Markdown into animated presentations
 
 Write a regular Markdown file with headings and code blocks
 
-- `#` headings create **centered** title slides
-- `##` headings with code create **two-column** slides
+- Headings without code/image create **centered** slides
+- Headings with code or image create **two-column** slides
 - Consecutive code blocks become click-through states
 
 ```yaml
