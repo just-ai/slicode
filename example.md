@@ -141,6 +141,12 @@ interface ContentState {
 }
 ```
 
+## Images
+
+Use images instead of code — they go in the right panel too
+
+![Architecture](https://picsum.photos/800/600?random=1)
+
 # Getting Started
 
 Install and present in seconds

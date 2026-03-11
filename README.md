@@ -15,7 +15,13 @@ Write a plain Markdown file that reads well on its own, run one command, and get
 - Go from README to talk in 30 seconds
 - Keep your slides readable as a plain `.md` file
 
-## Install
+## Quick Start
+
+```bash
+npx slicode example.md --open
+```
+
+Or install globally:
 
 ```bash
 npm install -g slicode
